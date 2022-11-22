@@ -1,8 +1,9 @@
 .container{
     width: 950px;
     background-color: rgb(186, 184, 184);
-    margin: 10px auto;
+    margin:0px auto;
     padding: 15px;
+    /* display: flex; */
 }
 .top-nav {
     height: 150px;
