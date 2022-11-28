@@ -1,0 +1,41 @@
+
+.container{
+   /* display: flex; */
+  
+   border: 5px solid rgb(163, 161, 161);
+   margin:30px 20px  ;
+   width: 600px;
+   /* height: 80%;
+   width: 70%;
+   justify-content: left; */
+}
+
+.navbar{
+    background-color: rgb(107, 192, 218);
+    height: 80px;
+    
+}
+.image{
+    position:absolute;
+    top: 30px;
+    padding:15px;
+}
+.imagen, img {
+  width:80px ;
+  border: 3px solid white;
+  border-radius:35px ;
+
+}
+.data{
+    padding: 15px;
+    /* background-color:beige; */
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.data p{
+    font-size: 20px;
+}
+.icono{
+    width: 15px;
+    
+}
