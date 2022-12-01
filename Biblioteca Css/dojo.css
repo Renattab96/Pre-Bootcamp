@@ -1,0 +1,186 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Clase fixed-width container que se "autocentrará" a sí misma */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .header {
+    display: flex;
+    align-items: flex-start;
+    background-color: rgba(67, 64, 64, 0.978);
+    color: White;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: baseline;
+    max-height: 300px;
+}
+
+#nav-title {
+    text-align: right;
+    padding: 3px;
+    margin: 2px;
+}
+
+#nav-links {
+    align-items: left;
+}
+
+.nav-links li {
+    display: inline-block;
+    /* align-items: left; */
+    text-decoration: none;
+    color: white;
+    padding: 2px 5px;
+
+}
+
+li,
+a {
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+
+}
+
+.btn {
+    background-color: rebeccapurple;
+    color: white;
+    border: 4px solid black;
+    width: 90px;
+    height: 35px;
+    align-items: right;
+
+}
+/* .container{
+    background-color: blueviolet;
+} */
+.container{
+    width: 950px;
+    background-color: rgb(15, 14, 14);
+    margin:px auto;
+    padding: 15px;
+    text-align:justify;
+    /* display: flex; */
+}
+/* .top-nav {
+    height: 150px;
+    background-color: green;
+    margin-bottom: 10px;
+}
+.side-nav {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 5px; 
+}*/
+.main {
+    
+    height:60%;
+    width: 100%;
+    background-color: rgb(250, 237, 237);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sub-content {
+    height: 200px;
+    width: 210px;
+    /* background-color: yellow; */
+    margin: 5px;
+    display:inline-table;
+    border-radius: 40px;
+}
+img{
+    width: 400px;
+    border-radius: 40px;
+}
+
+
+section#contacto{
+    display: flex;
+    font-family: 'Open Sans' , sans-serif;
+    padding: 4rem ;
+}
+section#contacto div:first-child{
+    padding: 3rem;
+    width: 70%;
+    
+    display: inline-block;
+    justify-content:space-between;
+    align-items: cemter;
+}
+section#contacto div :first-child h3 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+section#contacto div :first-child p {
+    font-size: 1.2rem;
+    color: black;
+}
+section#contacto div:last-child{
+    background-color: #0302022e;
+    color: white;
+    font-weight: 700;
+    width: 50%;
+    padding: 2rem;
+}
+input,textarea{
+    padding: 1,3rem;
+    width: 90%;
+    margin: 1rem;
+}
+/* input[type="submit"]{
+    font-weight: 700;
+    background-color: red;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+    width: 30%;
+    margin-left: 60%;
+    transition: all 5s ease;
+} */
+/* input[type="submit"]:hover{
+    background-color: #D41F1F;
+} */
+/* #advertisement {
+    height: 120px;
+    width: 660px;
+    background-color: purple;
+    margin: 5px;
+} */
+footer{
+    background-color: #141a18;
+    color: white;
+    font-weight: 700;
+    font-family: 'Open Sans' , sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding :2rem;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer div.redes-sociales {
+    padding-top: 2rem;
+}
+footer div.redes-sociales a{
+    font-size: 2rem;
+}
+
+footer div.politicas a{
+    display: block;
+   
+}
+footer div.politicas {
+    line-height: 2;
+}

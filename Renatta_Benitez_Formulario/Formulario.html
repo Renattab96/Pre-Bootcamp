@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="Formulario">
+        <h1> Formulario de Registro </h1>
+        <form action="/process" method="post">
+            <div>
+                <label> Primer Nombre:*</label>
+                <input type="text" name="primernombre" placeholder="Ingresa tu Primer Nombre...">
+            </div>
+            <br>
+            <div>
+                <label> Segundo Nombre:* </label>
+                <input type="text" name="segundonombre" placeholder="Ingresa tu Segundo Nombre  ">
+            </div>
+            <br>
+            <div>
+                <label>Correo Electronico:* </label>
+                <input type="text" name="email" placeholder="Tu email">
+            </div>
+            <br>
+            <div>
+                <label for="">Contrasena*</label>
+                <input type="password" name="password" placeholder=" Ingrese su Contrasena">
+            </div>
+            <br>
+            <div>
+                <label for="">Repite la Contrasena * </label>
+                <input type="repitepassword" name="repitepassword" placeholder="Repite la contrasena">
+            </div>
+            <br>
+            <div>
+                <label for="">Fecha Nacimiento*</label>
+                <input type="date" name="FechaNAc">
+            </div>
+            <br>
+            <div>
+                <label for="">Genero </label><br>
+                <input type="radio" name="font" value="Femenino" id="Femenino">
+                <label for="Femenino">Femenino</label>
+                <input type="radio" name="font" value="masculino" id="masculino">
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="font" value="nobinario" id="nobinario">
+                <label for="nobinario">No binario</label>
+                <input type="radio" name="font" value="indistinto" id="indistinto">
+                <label for="indistinto">prefiero no responder </label>
+            </div>
+            <br>
+            <div>
+                <label>Cuentanos un poco mas de ti ... </label>
+                <br>
+                <textarea name="descripcion" cols="30" rows="5">
+
+                </textarea>
+            </div>
+            <br>
+            <div>
+                <label>Idioma favorito</label>
+                <select name="idioma">
+                    <option>Javascript</option>
+                    <option>React</option>
+                    <option>SQL</option>
+                    <option>CSS</option>
+                </select>
+
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" name="offers" id="offers" checked>
+                <label for="accept"> Me gustaria recibir correo con ofertas </label>
+            </div>
+            <br>
+            <input type="submit" value="Crear Cuenta " style="border-bottom: 1ex;border-left: 2cm;">
+            <br>
+            
+            <div>
+                <h5 style="color:red;">* Los campos obligatorios del formulario  </h5>
+            </div>
+        </form>
+    </div>
+        
+</body>
+
+</html>

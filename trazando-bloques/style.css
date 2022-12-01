@@ -38,3 +38,29 @@
     background-color: purple;
     margin: 5px;
 }
+footer{
+    background-color: #141a18;
+    color: white;
+    font-weight: 700;
+    font-family: 'Open Sans' , sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding :2rem;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer div.redes-sociales {
+    padding-top: 2rem;
+}
+footer div.redes-sociales a{
+    font-size: 2rem;
+}
+
+footer div.politicas a{
+    display: block;
+}
+footer div.politicas {
+    line-height: 2;
+}
