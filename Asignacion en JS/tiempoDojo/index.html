@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>tiempo Coding</title>
+</head>
+<body>
+    <header>
+        <p>DojoWeather</p>
+        <nav>
+            <a href="#" onclick="mensaje()">Burbank</a>
+            <a href="#" onclick="mensaje()">Chicago</a>
+            <a href="#"onclick="mensaje()">Dallas</a>
+        </nav>
+    </header>
+    <!-- fin del header -->
+    <!-- seccion y checkbox -->
+    <div class="seccion">
+        <p>San Jose</p>
+        <form>
+            <label>show temperature in</label>
+            <select name="clima" id="clima">
+                <option value="C">°C</option>
+                <option value="F">°F</option>
+            </select>
+        </form> 
+    </div>
+    <!-- fin seccion y checkbox -->
+    <!-- inicio cards -->
+    <main>
+        <div class="card">
+            <div class="maincard">
+                <p>Today</p>
+            <div class="icono">
+                <img src="assets/some_rain.png" alt="rain">
+            </div>
+            <p>some rain</p>
+            </div>
+            <div class="clima">
+                <h2 class="heat" >24°</h2>
+                <h2 class="cold" >18°</h2>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="maincard">
+                <p>Tomorrow</p>
+            <div class="icono">
+                <img src="assets/some_sun.png" alt="rain">
+            </div>
+            <p>some sun</p>
+            </div>
+            <div class="clima">
+                <h2 class="heat" >27°</h2>
+                <h2 class="cold" >19°</h2>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="maincard">
+                <p>Friday</p>
+            <div class="icono">
+                <img src="assets/some_clouds.png" alt="rain">
+            </div>
+            <p>some clouds</p>
+            </div>
+            <div class="clima">
+                <h2 class="heat" >21°</h2>
+                <h2 class="cold" >16°</h2>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="maincard">
+                <p>Saturday</p>
+            <div class="icono">
+                <img src="assets/some_sun.png" alt="rain">
+            </div>
+            <p>somre sun</p>
+            </div>
+            <div class="clima">
+                <p class="heat" >26°</p>
+                <p class="cold" >21°</p>
+            </div>
+        </div>
+    </main>
+    <!-- final cards -->
+    <div class="cookie" id="cookie">
+        <div class="imgcookie">
+            <img src="assets/cookie.png" alt="cookie">
+        </div>
+        <div class="maincookie">
+            <p>Stop! Cookie time</p>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our trafic. <a href="#">Read more...</a> </p>
+        </div>
+        <button onclick="remove('#cookie')">I Accept</button>
+    </div>
+
+
+
+<script src="./app.js"></script>    
+</body>
+</html>

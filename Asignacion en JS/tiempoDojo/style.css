@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+/* inicio header */
+header{
+    background-color:rgb(135, 181, 250);
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+header p{
+    color: white;
+    font-weight: bold;
+    font-size: xxx-large;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:x-large;
+    margin-left: 20px;
+}
+/* fin header */
+
+/* inicio de seccion y checkbox */
+.seccion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 5px black;
+    margin: 0px 200px;
+}
+
+.seccion p{
+    font-size: xx-large;
+    padding: 25px;
+}
+
+label{
+    font-weight: bold;
+    font-size: large;
+}
+/* fin de seccion y checkbox */
+
+/* inicio de main y cards */
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:30px 200px;
+}
+
+.card{
+    background-color: rgb(237, 233, 233);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px;
+}
+.maincard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.maincard p{
+    font-weight: bold;
+    font-size: xx-large;
+
+}
+
+.card img{
+    border-radius: 50%;
+    width: 250px;
+}
+
+.clima{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.heat{
+    color: red;
+    font-weight: bold;
+    font-size: xxx-large;
+}
+
+.cold{
+    color:cornflowerblue;
+    font-weight: bold;
+    font-size: xxx-large;
+}
+
+/* fin del main y cards */
+/* inicio del cookie */
+
+.cookie{
+    border: solid 2px black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin: 0px 150px;
+    padding: 15px;
+}
+
+.imgcookie img{
+    width: 100px;
+}
+.maincookie p{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.cookie button{
+    padding: 5px 40px;
+    background-color:cornflowerblue;
+    font-weight: bold;
+    font-size: x-large;
+    box-shadow: 5px 5px black;
+
+}
+
+
+
+
+/* fin del cookie */
